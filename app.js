@@ -4,7 +4,7 @@ class ECommerceApp {
     constructor() {
         this.storage = window.storage; // استخدام مثيل التخزين المنشأ في storage.js
         this.currentCategory = 'all';
-        this.currentSort = 'newest';
+        this.currentSort = 'newest';   
         this.searchQuery = '';
 
         this.init();
